@@ -1,0 +1,97 @@
+
+ #iium_logo, #siddiq_logo   {
+  width: 65px;
+  height: 65px;
+  margin: 0px 10px;
+}
+
+.navbar .navbar-nav .nav-item a{
+    padding: 10px 20px;
+    margin: 0px 10px;
+}
+
+.navbar .navbar-nav .nav-item a:hover{
+    color: blue;
+}
+
+
+.navbar .navbar-nav .nav-item a.contact{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+}
+
+.navbar .navbar-nav{
+    text-align: center;
+}
+
+.contact .title{
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact .title .contact-title{
+    padding-bottom: 20px;
+    width: fit-content;
+    border-bottom: 3px solid black;
+}
+
+
+.contact .box {
+  align-items: center;
+  justify-content: center;
+  width: 820px;
+  height: 420px;
+  border : 10px solid black;
+  margin: auto;
+}
+
+
+
+.container-content{
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 10px ;
+}
+
+.contact_paragraph{
+  margin-top: 50px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.flex-container {
+  display: flex;
+  background-color: rgb(1, 9, 17);
+}
+
+.flex-container > div {
+  background-color: #d4d4d4;
+  margin: 10px;
+  padding: 30px;
+  justify-content: center;
+  line-height: 15px;
+}
+footer{
+  height: 200px;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer #siddiq_logo_footer{
+  width: 65px;
+  height: 65px;
+}
+
+footer .contact_number {
+  color: white;
+  margin: 0px;
+}
